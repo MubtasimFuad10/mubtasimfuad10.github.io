@@ -430,7 +430,7 @@ const SITE = {
     {
       title: "Peer Reviewer",
       org: "IEEE Access",
-      when: "Ongoing",
+      when: "",
       summary: `Reviewed <em>Deep Learning in Virtual Try-On: A Comprehensive Survey</em>.`,
       details: [
         "Provided the authors with recommendations for improving the manuscript.",

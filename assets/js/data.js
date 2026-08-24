@@ -588,9 +588,9 @@ const SITE = {
     },
     {
       code: "—",
-      title: "Competitive Programming",
-      role: "Selector and Coach",
-      org: "Programming Contest Club, University of Asia Pacific",
+      title: "Programming Contest Club",
+      role: "Administrator and Coach",
+      org: "Department of CSE, University of Asia Pacific",
       term: "Since Oct 2024",
       summary:
         "Coaching students for national and inter-university programming contests, " +

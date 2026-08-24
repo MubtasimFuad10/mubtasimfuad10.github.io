@@ -47,7 +47,7 @@ const SITE = {
            Paste the real ones over the three marked below.
      --------------------------------------------------------------------- */
   links: [
-    //{ type: "email" },                                  // your personal address, from emailUser/emailDomain above
+    { type: "email" },                                  // your personal address, from emailUser/emailDomain above
     { type: "email", user: "mubtasim", domain: "uap-bd.edu" },   // your UAP address
     // Delete whichever you do not want listed. Many academics lead with the
     // institutional address; it is the one on your department profile.
@@ -56,7 +56,7 @@ const SITE = {
     { label: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/mubtasimfuad10/" }              // TODO
     // Your phone number is on your CV but is deliberately not here — a public
     // page invites spam calls. Add it back if you want it:
-    // { label: "Phone", icon: "globe", url: "tel:+8801987654321" }
+    // { label: "Phone", icon: "globe", url: "tel:+8801790524857" }
   ],
 
   /* ---------------------------------------------------------------------

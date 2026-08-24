@@ -64,7 +64,7 @@ const SITE = {
      --------------------------------------------------------------------- */
   home: {
     eyebrow: "Programmer · Educator · Researcher",
-    //headline: "Generative models for Bangla script and other low-resource settings.",
+    //headline: "Sentences Sentences Sentences",  // TODO: replace with your own headline
 
     /* -------------------------------------------------------------------
        The home page is built from this list. Each entry becomes one titled
@@ -84,9 +84,10 @@ const SITE = {
         body: [
           `Welcome! I am Md Mubtasim Fuad, a <a href="https://cse.uap-bd.edu/people/faculty/mm/">Lecturer</a> in the Department of Computer Science and
            Engineering at the <a href="https://www.uap-bd.edu/">University of Asia
-           Pacific</a> in Dhaka, Bangladesh. My research is in generative modelling
-           and multimodal learning, and much of it is aimed at Bangla and other
-           languages that current systems serve poorly.`
+           Pacific</a> in Dhaka, Bangladesh. My research interests focus on developing generative 
+           and multimodal AI systems for understanding and generating diverse forms of data. 
+           I am also exploring other areas of Artificial Intelligence and Machine Learning, 
+           with the goal of developing effective and practical AI solutions.`
         ]
       },
       {
@@ -343,7 +344,7 @@ const SITE = {
       place: "Dhaka, Bangladesh",
       start: "2019-09",
       end: "2023-12",
-      summary: "CGPA 3.95 / 4.00 — first class, first position.",
+      summary: "CGPA 3.95 / 4.00 — 1st Class, 1st Position",
       details: [
         `Thesis: <em>Okkhor-Diffusion: Synthetic class specific Bangla Handwritten
          Character Generation using Denoising Diffusion Probabilistic Models
@@ -380,8 +381,8 @@ const SITE = {
         "Teaching undergraduate courses in computer science and engineering, and " +
         "supervising student research projects.",
       details: [
-        "Conducted eight courses across programming, software engineering, computer mathematics and microprocessors.",
-        "Select and coach for the UAP Programming Contest Club."
+        "Conducted courses across programming, software engineering, computer mathematics and microprocessors, NLP",
+        "Supervised undergraduate research projects in generative AI, computer vision, NLP and multimodal learning"
       ],
       links: [
         { label: "Department profile", url: "https://cse.uap-bd.edu/people/faculty/mm/" }
@@ -434,6 +435,9 @@ const SITE = {
       details: [
         "Provided the authors with recommendations for improving the manuscript.",
         "Corrected citation, spelling and presentation errors."
+      ],
+      links: [
+        { label: "Link", url: "https://www.webofscience.com/wos/author/record/JZT-3573-2024" }
       ]
     },
     {
@@ -442,22 +446,31 @@ const SITE = {
       when: "Sep 2025",
       summary:
         "Judged the national round in the Creative Category (Junior Group) and the " +
-        "Physical Computing Category."
+        "Physical Computing Category.",
+          links: [
+        { label: "Link", url: "https://www.facebook.com/photo/?fbid=1195450119270725&set=pcb.1195450235937380" }
+      ]
     },
     {
       title: "Selector and Coach",
       org: "Programming Contest Club, University of Asia Pacific",
       when: "Oct 2024 – Present",
       summary: "Mentoring younger programmers in competitive programming.",
-      details: ["Responsible for the monthly programmer selection."]
+      details: ["Responsible for the monthly programmer selection."],
+      links: [
+        { label: "Link", url: "https://pcc.uap-bd.edu/" }
+      ]
     },
     {
       title: "Technical Support Volunteer",
-      org: "45th ICPC World Finals, ICPC Foundation",
+      org: "45th Annual World Finals of the International Collegiate Programming Contest (ICPC)",
       when: "Nov 2022",
       details: [
         "Assembled and set up contest machines for the World Finals.",
         "Supported event logistics and suppliers."
+      ],
+      links: [
+         { label: "Certificate", url: "files/certificates/ICPC.pdf" }
       ]
     },
     {
@@ -468,6 +481,9 @@ const SITE = {
         "President (Spring 2023): planned major events with the convener and led the team.",
         "Vice-President (Fall 2022): organised events and assigned tasks to members.",
         "Treasurer (Spring 2022): built budgets for club events and workshops."
+      ],
+      links: [
+        { label: "Link", url: "https://www.facebook.com/roboticsUAP.cse" }
       ]
     }
   ],
@@ -514,6 +530,13 @@ const SITE = {
       //term: "Since 2024"
     },
     {
+      code: "CSE 108",
+      title: "Competitive Programming",
+      role: "Lecturer",
+      org: "University of Asia Pacific",
+      //term: "Since 2024"
+    },
+    {
       code: "CSE 311",
       title: "Microprocessor & Assembly Language",
       role: "Lecturer",
@@ -544,6 +567,13 @@ const SITE = {
     {
       code: "CSE 410",
       title: "Software Development",
+      role: "Lecturer",
+      org: "University of Asia Pacific",
+      //term: "Since 2024"
+    },
+     {
+      code: "BNG 401",
+      title: "Functional Bengali Language",
       role: "Lecturer",
       org: "University of Asia Pacific",
       //term: "Since 2024"
